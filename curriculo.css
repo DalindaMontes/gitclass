@@ -1,0 +1,203 @@
+body{
+    background: #4C6582;
+    Margin:auto;
+    Aling: Center; 
+  }
+  .figura{
+    font-family:arial;
+    background: white;
+    Font-size: 12px;
+    Text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    Width: auto;
+    Height: auto;
+    Margin: 10px;
+    Padding: 10px;
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .cuadrado { 
+        border-radius: 10px;
+        Border-color: green;
+        Background: green;
+        Width: 70px;
+        Height: 70px;
+        Margin: 5px;
+        Padding: 5px;
+        
+   } 
+  .triángulo {
+        Border-left: 70px solid transparent;
+        Border-right : 70px solid transparent;
+        Border-top: 10px solid transparent; 
+        Border-bottom: 70px solid pink;
+        Width: 0px;
+        Height: 0px;
+        
+    }
+  .círculo { 
+        border-radius: 500px;
+        Border-color: lightblue;
+        Background: lightblue;
+        Width: 70px;
+        Height: 70px;
+        Margin: 5px;
+        Padding: 10px;
+        
+  } 
+  .rectángulo {  
+        border-radius: 10px;
+        Border-color: yellow;
+        Background: yellow;
+        Width: 120px;
+        Height: 70px;
+        Margin: 5px;
+        Padding: 10px;
+      
+  } 
+  .img {  
+        height: 200px;
+        width: 200px;
+        Border-color: blue;
+        Padding: 20px;
+        Marging: 20px;
+        Border: 20px solid lightblue;
+        Border-radius:500px;
+        position: relative;
+        top:10px;
+        bottom:15px;
+  }
+  .imgg{
+        height: 100px;
+        width: 705px;
+        Padding: 10px;
+        Marging: 10px;
+        Border: 4px solid white;
+        Border-radius:20px; 
+  }
+  .img1{
+        height: 100px;
+        width: 100px;
+        Border-color: pink;
+        Padding: 10px;
+        Marging: 10px;
+        Border: 6px solid pink;
+        Border-radius:50px;
+        position: absolute;
+        top:700px;
+        bottom:15px;  
+  }
+  .titulo-principal{
+       font-family:futura;
+       color:white;
+       font-size: 30px;
+       background-color:#EFBAAC;
+       text-align: center; 
+       Border-radius:5px;
+       Border-color:white;
+       Border-style:dotted;
+       Margin: 10px;
+       position: relative;
+    }  
+  .titulo2{
+      text-aling:center;
+      font-family: brutalismo;
+      color:#72682C;
+      Font-size:20px;
+      width: auto;	
+        height: 40px;
+        background-color: #C9E4D5;
+        line-height: 40px;
+        text-align: center;
+        margin: 10px;
+      Border-radius: 5px;
+  }
+  .titulo3{ 
+      font-family: calibri;
+      color: green;
+      Font-size: 20px;
+      width: auto;	
+        height: 30px;
+        background-color: lightyellow;
+        line-height: 30px;
+        text-align: center;
+        margin:10px; 
+      Border-radius: 10px;
+      Border-style:dotted;
+  }
+  .titulo4{
+     font-family: calibri;
+      color: pink;
+      Font-size: 20px;
+      width: auto;	
+        height: 30px;
+        background-color: peru;
+        line-height: 30px;
+        text-align: center;
+        margin:10px; 
+      Border-radius: 10px;
+      Border-style:dotted;
+  }
+  .parrafo1 {
+      Padding: 10px;
+      Marging: 10px;
+      Border: 10px solid #03AAB2;
+      font-family: calibri;
+      color:white;
+      width: auto;	
+        height: auto;
+        background-color:#03AAB2;
+        line-height: 17px;
+        text-align: justify;
+      Border-radius: 5px;
+        margin: 15px; 
+      Pading: 15px;
+      Content: center; 
+  }
+  .parrafo2{
+      Padding: 10px;
+      Marging: 10px;
+      Border: 10px;  
+      font-family: calibri;
+      font-size: 15px;
+      color:white;
+      width: auto;	
+        height: auto;
+        background-color:#DB6D72;
+        line-height: 20px;
+        text-align: justify;
+      Border-radius: 5px;
+        margin: 15px; 
+      Pading: 15px;
+      Content: center; 
+  }
+  .gato{ 
+       height: 200px;
+       width: 200px;
+       Padding: 5px;
+       Marging: 5px;
+       display: flex;
+       position: absolute;
+       top: 700px;
+       left: 300px;
+       align-items:center;
+  }
+  .gato::before {
+       content:"😵";
+       position:absolute;
+       left:50px;
+       top:700px;
+       font-size:100px;
+  }
+  .gato::after {
+       content:"💕";
+       position:absolute;
+       top:700px;
+       left:600px;
+       font-size:100px;
+       aling-items:rigth;   
+  }
+       
+      
+      

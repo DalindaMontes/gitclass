@@ -1,0 +1,75 @@
+.Logo{
+    Border: 3px solid Black;
+    Width: 0 auto;
+    Height: 0 auto;
+    Padding: 5px;
+    Background:peru;
+    Display: flex;
+    flex-Direction:raw;
+    flex-wrap: wrap;
+    aling-content: center;
+    justify-content: center;
+  }
+  .loguito{
+    Width: 100px;
+    Height: 100px;
+  }
+  .LOG{
+    font-family: Arial;
+    font-size: 20px;
+    color: pink;
+    border: 10px solid pink;
+    border-radius: 10px;    
+    Width: 0 auto;
+    Height: 0 auto;
+    Margin: 5px;
+    Padding: 10px;
+    aling-content:center;
+    text-aling: center; 
+    flex-grow: 1;
+    display:flex;
+    place-content:center;
+    justify-content: center;
+  }
+  .Paisaje{
+    Width: 0 auto;
+    Height: 0 auto;
+    Marging: 10px;
+    Padding: 13px;
+    Background:#226668;
+    Display: flex;
+    flex-wrap: wrap;
+    aling-content:center;
+    height:0 auto;
+    row-gap:20px;
+    column-gap:20px;
+  }
+  .paisaje-1{
+    Width: 310px;
+    Height: 200px;
+  }
+  .Pie{
+    Width: 0 auto;
+    Height: 0 auto;
+    Marging: 5px;
+    Padding: 13px; 
+    Background:pink;
+    display:grid;
+    justify-items:center;
+    grid-template-columns: 1fr;
+    grid-template-raws: 1fr;
+  }
+  .pie0{
+    
+  }
+  .pie1{
+    font-family: Calibri;
+    font-size: 20px;
+    color: blue;
+    border: 3px solid White;
+    border-radius: 10px;
+    Width: 0 auto;
+    Height: 0 auto;
+    Margin: 5px;
+    Padding: 10px;
+  }

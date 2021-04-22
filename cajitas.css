@@ -1,0 +1,61 @@
+.cajitas{
+  Width: 1310px;
+  Height: 1320px;
+  background: blue;
+  border: 10px;
+  border-radius:5px;
+  border-color:white;
+}
+.box{
+  font-family: Arial;
+  font-size: 12px;
+  font-color: violet;
+  border: 10px solid;
+  border-radius: 10px;    
+  Width: 100px;
+  Height: 100px;
+  Margin: 10px;
+  Padding: 10px;
+  content: center;
+  text-aling: center;
+}
+.box1{
+  background-color: lightblue;
+  border: lightblue;
+  position: absolute;
+  left: 1190px;
+  
+}
+.box2{
+  background-color: lightgreen;
+  border: lightgreen;
+  position: absolute;
+}
+.box3{
+  background-color: pink;
+  border: pink;
+  position: absolute;
+  top: 1200px;
+}
+.box4{
+  background-color: yellow;
+  border: yellow;
+  position: absolute;
+  top: 1200px;
+  left: 1190px;
+}
+.box5{
+  background-color: peru;
+  border: peru;
+  position: absolute;
+  top: 605px;
+  left: 605px;
+}
+.img{
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  marging: 5px;
+  border-radius:10px;
+  display: block;
+}
